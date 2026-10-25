@@ -1,0 +1,9 @@
+# Release-only repository: deny everything unless explicitly allowed below.
+# This excludes source, APK/AAB binaries, signing material, credentials,
+# local configuration, private README backup, logs, QA output, and deployment files.
+/*
+!/.gitignore
+!/README.md
+
+# Do not add broad exceptions or force-add private files.
+# Any future workflow or file must be reviewed and explicitly approved first.
